@@ -118,6 +118,11 @@ Tras una investigación, hemos asociado estos picos a las siguientes razones cla
 
 2. En segundo lugar, debido a un incremento en la Demanda Internacional, a causa de la creciente popularidad del aguacate, no solo en Estados Unidos, sino también en mercados emergentes como Asia y Europa. Presionó la oferta disponible, especialmente en temporadas donde la producción ya era limitada, lo cual ocasionó un claro incremento en los precios del aguacate.
 
+#### Tendencia de Ventas de Aguacates a lolLargo del Tiempo
+![image](https://github.com/user-attachments/assets/ad237578-c0e2-40b9-b6ff-9c01bdffdb98)
+En este gráfico se puede observar de forma muy clara el suceso que afirmábamos al resaltar el primer gráfico de descomposición de Serie Temporal del precio promedio de los aguacates, puesto que exactamente los mismos picos de máximos relativos que tiene este gráfico en las tendencias de venta, aparecen como mínimos relativos en ese gráfico, meramente por el índice compuesto por Oferta/Demanda, con la afectación que tiene sobre el precio.
+
+
 ### Gráficos para Visualización de Datos
 
 
