@@ -1,4 +1,9 @@
 # Análisis del Conjunto de Datos de Precios de Aguacate
+Este es nuestro proyecto consistente en el análisis del set de datos *Avocado*
+
+## Integrantes del grupo:
+- Nelson Morales
+- Ivan López
 
 ## Planificación
 
