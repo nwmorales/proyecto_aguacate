@@ -128,6 +128,27 @@ En este gráfico se puede observar de forma muy clara el suceso que afirmábamos
 ![image](https://github.com/user-attachments/assets/8cba89ac-465c-4877-9301-f88989a9509d)
 En este gráfico de violín del volumen total de consumo de aguacates, ordenado por grandes regiones, hemos podido ver algunas regiones como "West", "California" y "SouthCentral" con dispersiones pronunciadas, y, por otro lado, en otras regiones como, la región "Plains", que tienen un comportamiento bastante más uniforme.
 
+#### Boxplot Comparativo de Precios entre Años
+![image](https://github.com/user-attachments/assets/f502b12a-894b-4dc9-b269-b14b8ef6544d)
+
+Este gráfico se revela que, entre 2015 y 2017, parece existir una tendencia al alza en el precio promedio de los aguacates, alcanzando su punto más alto en 2017.
+
+En 2018, el precio promedio muestra una disminución en este promedio, lo que sugiere que el mercado pudo haberse estabilizado o que hubo una mayor disponibilidad de aguacates.
+
+El año 2017 destaca por una mayor variabilidad en los precios promedio en comparación con los demás años, reflejada en la amplitud de la caja y en la cantidad de valores atípicos. Esto indica que 2017 fue un período marcado por inestabilidad en los precios de los aguacates. En contraste, 2018 presenta una menor variabilidad y un número reducido de outliers, lo que sugiere precios más estables y consistentes durante ese año.
+
+Además, se identifican numerosos valores atípicos en 2016 y 2017, lo que podría ser indicativo de la influencia de factores externos, como variaciones climáticas o un aumento en la demanda, que impactaron significativamente los precios durante esos períodos.
+
+#### Gráfico de ventas por Tipo de Bolsa
+En el siguiente grafico podemos observar el análisis de las ventas según el tamaño de las bolsas, el cual revela que las bolsas pequeñas (Small Bags) tienen una mayor demanda en comparación con las bolsas grandes (Large Bags) y las bolsas extragrandes (XLarge Bags). Este comportamiento se puede observar claramente en la gráfica presentada, donde las Small Bags destacan como el formato más popular entre los consumidores, siempre sin tener en cuenta el apartado de Total Bags, el cual únicamente expresa el sumatorio de las ventas de todas las bolsas de forma común.
+
+Esta preferencia podría estar relacionada con diversos factores, como la comodidad para el transporte, su asequibilidad o una mayor adecuación a las necesidades de los hogares promedio. En contraste, las Large Bags y XLarge Bags parecen dirigirse a un segmento más específico del mercado, como restaurantes, mayoristas o familias numerosas.  
+
+La diferencia en las ventas también podría reflejar patrones de consumo ligados a la frecuencia de compra, con las Small Bags siendo ideales para consumidores que prefieren adquirir productos frescos en cantidades más pequeñas de manera regular. Este patrón subraya la importancia de entender cómo el tamaño del empaque influye en las decisiones de compra y el comportamiento del mercado.
+![image](https://github.com/user-attachments/assets/48a0141e-6e93-47e1-8d96-62c79d877cf5)
+
+
+
 ### Elasticidad del Precio
 
 
@@ -180,3 +201,33 @@ Las regiones con bajo volumen de ventas se mantienen constantes y no muestran ca
 
 
 ### Análisis de Correlación y Regresión
+#### Matriz de Correlación de las Variables Numéricas surgidas del Análisis de Correlación y Regresión
+![image](https://github.com/user-attachments/assets/8da35913-768d-4315-ac32-6748f7225943)
+Teniendo en cuenta y utilizando, todas las variables numéricas del DataFrame, podemos hacer un gráfico de tipo heatmap para la matriz de correlación entre esos datos.
+
+Para este gráfico, puesto que, como ya hemos indicado en un apartado anterior, sabemos que Total Bags es la combinación de Small Bags, Large Bags i XLarge Bags, y por lo tanto en el grafico de la matriz de correlación, podemos simplificar el heatmap y dejar sólo Total Bags.
+
+Dicho esto, al analizar el gráfico, observamos que Total Volume muestra una alta correlación con Total Bags y con las columnas que representan los calibres 4046 y 4225 (que representan los tipos de aguacate). Esto sugiere que las ventas de aguacates de estos calibres son los principales contribuyentes al volumen total de ventas.
+
+Es importante tener en cuenta que esta alta correlación entre variables puede impactar negativamente en el análisis, especialmente al usar modelos de regresión lineal. Las correlaciones fuertes entre las variables independientes pueden llevar a problemas de multicolinealidad, lo que a su vez puede hacer que los modelos sean inestables, generen errores numéricos y ofrezcan un rendimiento de predicción deficiente.
+
+#### Análisis de Dispersión entre Variables Clave
+Estos graficos ilustran el diagrama de dispersión que hemos realizado, implementando regresión lineal y polinómica.
+Realizando un analisis por cada grupo de regiones que hemos creado siendo estas:
+#### Greater Reagions:
+![image](https://github.com/user-attachments/assets/f7fa3f12-ea18-4527-94c3-1b61136a9904)
+
+#### Cities
+![image](https://github.com/user-attachments/assets/87889af0-34f0-4787-abac-d2c3a498cae6)
+
+#### Regions
+![image](https://github.com/user-attachments/assets/56d00783-7ced-4549-8f96-0eb845ffaf26)
+
+#### TotalUS
+![image](https://github.com/user-attachments/assets/26de5589-0ccc-413a-b743-e1cec783189c)
+
+Al analizar la dispersión entre las variables clave AveragePrice y Total Volume, se observa una concentración de puntos cerca del valor 0, lo que indica que los volúmenes de venta de aguacates orgánicos son notablemente más bajos que los convencionales.
+
+Aun con eso, mediante los gráficos resultantes, podríamos concluir que la regresión polinómica de grado 2 es algo más ajustada. Sin embargo, la aproximación no es buena por el acúmulo de puntos cercanos a 0.
+
+Además, al realizar el análisis por grupos, hemos observado, que la segmentación impacta de forma directa a la dispersión, de forma que en el nivel TotalUS, y de forma menos clara en Grandes Regiones, los datos están más agregados y muestran una tendencia global estable, pero, en cambio, a nivel de Regiones y Ciudades, la dispersión es mayor, lo que podría sugerir que los factores regionales y locales (como oferta, demanda o distribución) influyen más en la relación precio-volumen.
