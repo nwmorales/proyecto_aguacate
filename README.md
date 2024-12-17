@@ -151,7 +151,38 @@ La diferencia en las ventas también podría reflejar patrones de consumo ligado
 
 ### Elasticidad del Precio
 
+#### Elasticidad Precio-Demanda por Año
 
+![image](https://github.com/user-attachments/assets/70acd10c-09e9-4ca4-a7a7-3da8b4b0da18)
+Podemos observar que la elasticidad mejora en todas las categorías de 2015 a 2016
+
+City tiene la elasticidad más baja, lo que sugiere que en entornos urbanos, el precio no afecta significativamente la demanda. 
+
+GreaterRegion y TotalUS muestran una tendencia general de mejora hasta 2017, pero sufren un retroceso en 2018
+
+#### Elasticidad a Nivel de Tipo de Bolsa
+
+![image](https://github.com/user-attachments/assets/6a310e70-951c-493d-8770-7c924899947d)
+
+![image](https://github.com/user-attachments/assets/25420982-cc75-4a00-8eab-73861e94285d)
+
+![image](https://github.com/user-attachments/assets/534db5d0-8a1e-4563-8239-d7be784cbd00)
+
+En las gráficas se puede observar que las Small Bags tienen elasticidades negativas, lo cual es común porque la demanda disminuye con el aumento de precios.
+
+Las Large Bags muestran variaciones drásticas: en "GreaterRegion" hay alta sensibilidad negativa, mientras que en "City" y "Region" la elasticidad es positiva.
+
+Las XLarge Bags presentan un comportamiento inconsistente, positivo en "GreaterRegion" y "City", pero muy negativo en "Region". Estas diferencias podrían deberse a preferencias locales, factores económicos específicos o condiciones del mercado en cada región.
+
+#### Elasticidad Precios-Ventas (Relación General)
+
+![image](https://github.com/user-attachments/assets/bf8aedce-cbe5-416f-8fd6-5a07d7b61dd2)
+
+Observamos que los Aguacates Convencionales tienen Alta elasticidad de precio, donde un aumento en el precio reduce significativamente las ventas.
+
+También que los Aguacates Orgánicos tienen una Baja elasticidad, ya que los precios altos no afectan drásticamente las ventas, aunque el volumen total de ventas sigue siendo bajo.
+
+Esto refleja que los aguacates convencionales tienen mayor demanda general, mientras que los orgánicos atraen un nicho específico dispuesto a pagar más.
 
 
 ### Análisis de Cohortes
