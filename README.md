@@ -96,7 +96,7 @@ Es por eso que teniendo en cuenta esta classificación, hemos incluido también 
 
 
 ### Análisis de Series Temporales
-#Descomposición de Serie Temporal del precio promedio de los aguacates, analizado con precios semanales.#
+#### Descomposición de Serie Temporal del precio promedio de los aguacates, analizado con precios semanales.
 
 En el gráfico siguiente, se puede observar claramente, que anualmente se repiten una serie de fluctuaciones en el "AveragePrice" como que, si nos centramos en el gráfico de Estacionalidad, o en el gráfico de Observado, podemos visualizar unos picos de máximos relativos en los meses de octubre y noviembre, así como una bajada en el precio medio de los aguacates en el mes de febrero.
 
@@ -107,7 +107,7 @@ También hemos comprobado que en septiembre se empieza a acabar la temporada de 
 ![image](https://github.com/user-attachments/assets/4194c701-eb6d-496e-b779-5b11e88b52f9)
 
 
-#Análisis de Estacionalidad por Región de la variación de Precios de Aguacates por Grandes Regiones.#
+#### Análisis de Estacionalidad por Región de la variación de Precios de Aguacates por Grandes Regiones.#
 ![image](https://github.com/user-attachments/assets/27530520-2e29-4806-a270-6bb0739fd699)
 
 En este gráfico se puede ver un claro incremento en el precio medio de los aguacates por Grandes Regiones, sobre todo hay dos claros repuntes como son, durante los meses previos al inicio de 2017 y hacia los meses finales de ese mismo año.
