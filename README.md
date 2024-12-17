@@ -21,6 +21,73 @@ Comenzamos el análisis realizando un EDA (Exploratory Data Analysis), durante e
 - La región 'WestNewMexico' tiene 3 filas menos en comparación con el resto de las regiones.
 - En las columnas de calibres ('4046', '4225', '4770') encontramos valores igual a cero (0.0): 242 en '4046', 61 en '4225' y 5,497 en '4770'. Todos estos registros corresponden a aguacates orgánicos, excepto uno (df.iloc[2998]), que es de tipo convencional.
 
+Nuestra clasificacion de clases de regiones: ['City' 'Region' 'GreaterRegion' 'TotalUS']
+region_classification = {
+    'Albany': 'City',
+    'Atlanta': 'City',
+    'BaltimoreWashington': 'Region',
+    'Boise': 'City',
+    'Boston': 'City',
+    'BuffaloRochester': 'Region',
+    'California': 'GreaterRegion',
+    'Charlotte': 'City',
+    'Chicago': 'City',
+    'CincinnatiDayton': 'Region',
+    'Columbus': 'City',
+    'DallasFtWorth': 'Region',
+    'Denver': 'City',
+    'Detroit': 'City',
+    'GrandRapids': 'City',
+    'GreatLakes': 'GreaterRegion',
+    'HarrisburgScranton': 'Region',
+    'HartfordSpringfield': 'Region',
+    'Houston': 'City',
+    'Indianapolis': 'City',
+    'Jacksonville': 'City',
+    'LasVegas': 'City',
+    'LosAngeles': 'City',
+    'Louisville': 'City',
+    'MiamiFtLauderdale': 'Region',
+    'Midsouth': 'GreaterRegion',
+    'Nashville': 'City',
+    'NewOrleansMobile': 'Region',
+    'NewYork': 'City',
+    'Northeast': 'GreaterRegion',
+    'NorthernNewEngland': 'Region',
+    'Orlando': 'City',
+    'Philadelphia': 'City',
+    'PhoenixTucson': 'Region',
+    'Pittsburgh': 'City',
+    'Plains': 'GreaterRegion',
+    'Portland': 'City',
+    'RaleighGreensboro': 'Region',
+    'RichmondNorfolk': 'Region',
+    'Roanoke': 'City',
+    'Sacramento': 'City',
+    'SanDiego': 'City',
+    'SanFrancisco': 'City',
+    'Seattle': 'City',
+    'SouthCarolina': 'State',
+    'SouthCentral': 'GreaterRegion',
+    'Southeast': 'GreaterRegion',
+    'Spokane': 'City',
+    'StLouis': 'City',
+    'Syracuse': 'City',
+    'Tampa': 'City',
+    'TotalUS': 'TotalUS',
+    'West': 'GreaterRegion',
+    'WestTexNewMexico': 'Region'
+}
+def get_regions(name):
+  cat_region = region_classification.get(name)
+  return cat_region
+
+Es por eso que teniendo en cuenta esta classificación, hemos incluido también la siguiente linea de codigo, para filtrar la segmentación de los datos a analizar en cada exploración de los datos:
+# Filtrar los datos para en la columna 'region_type'
+df_reduced = df.loc[df['region_type'] == 'GreaterRegion'].copy()
+df_cities = df.loc[df['region_type'] == 'City'].copy()
+df_regions = df.loc[df['region_type'] == 'Region'].copy()
+
 ### Análisis de Series Temporales
 
 
