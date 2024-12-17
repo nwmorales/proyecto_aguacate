@@ -152,5 +152,17 @@ Regiones como Midsouth, Plains y Southeast tienen volúmenes de ventas bajos y p
 
 Los picos de precios y volúmenes en 2017 podrían deberse a un aumento en la demanda global o condiciones de oferta limitada.
 
+#### Análisis de Cohortes en Función del Tipo de Bolsa
+![image](https://github.com/user-attachments/assets/e566e121-2365-4cdd-969b-ac78ab96aa9c)
+![image](https://github.com/user-attachments/assets/ee69f287-5831-4385-a445-6cee327372b2)
+
+
+En esta gráfica podemos observar que las Small Bags son el motor principal de las ventas de aguacates, tanto en la categoría convencional como en la orgánica.
+
+Las ventas totales tienden a crecer con el tiempo, con picos estacionales.
+
+Las Large Bags tienen un rol secundario pero muestran crecimiento, especialmente en bolsas orgánicas.
+
+Las XLarge Bags representan una fracción muy pequeña y su impacto es insignificante en comparación con las otras categorías
 
 ### Análisis de Correlación y Regresión
