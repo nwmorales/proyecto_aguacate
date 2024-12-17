@@ -150,7 +150,27 @@ Es por eso que teniendo en cuenta esta classificación, hemos incluido también 
 
 
 ### Análisis de Series Temporales
+Descomposición de Serie Temporal del precio promedio de los aguacates, analizado con precios semanales.
 
+En el gráfico siguiente, se puede observar claramente, que anualmente se repiten una serie de fluctuaciones en el "AveragePrice" como que, si nos centramos en el gráfico de Estacionalidad, o en el gráfico de Observado, podemos visualizar unos picos de máximos relativos en los meses de octubre y noviembre, así como una bajada en el precio medio de los aguacates en el mes de febrero.
+
+Tras una búsqueda para recolectar información que nos pudiese indicar el motivo de estas fluctuaciones, hemos determinado que dos de los factores más determinantes para la bajada del precio de los aguacates en los meses de febrero, son, en primer lugar que en invierno, las bajas temperaturas en gran parte del país tienden a disminuir el interés en comidas frescas o veraniegas, como ensaladas o guacamole, que son formas comunes de consumir aguacates, además por ese mismo cambio en las temperaturas, hay mucha exportación de aguacates de México cosa que ayuda a mantener los precios bajos, y además, y el motivo que creemos que es más determinante en este caso, en enero y principios de febrero, el Super Bowl genera un aumento significativo en el consumo de aguacates debido a su popularidad como ingrediente principal del guacamole. Después del evento, el entusiasmo por este tipo de consumo disminuye, lo que puede explicar la caída en la demanda y consecuentemente el precio.
+
+También hemos comprobado que en septiembre se empieza a acabar la temporada de cosecha del aguacate, y por eso, al disminuir la oferta, pero mantenerse la demanda, puede subir el precio en octubre y noviembre, otro factor, el cual consideramos como claramente muy determinante, es que en noviembre hay la fiesta nacional de  Acción de Gracias donde es muy común el uso del aguacate para hacer Guacamole
+
+![image](https://github.com/user-attachments/assets/4194c701-eb6d-496e-b779-5b11e88b52f9)
+
+
+Análisis de Estacionalidad por Región de la variación de Precios de Aguacates por Grandes Regiones.
+![image](https://github.com/user-attachments/assets/27530520-2e29-4806-a270-6bb0739fd699)
+
+En este gráfico se puede ver un claro incremento en el precio medio de los aguacates por Grandes Regiones, sobre todo hay dos claros repuntes como son, durante los meses previos al inicio de 2017 y hacia los meses finales de ese mismo año.
+
+Tras una investigación, hemos asociado estos picos a las siguientes razones clave:
+
+1. En primer lugar, y como motivo principal, la disminución en la Producción Global, puesto que México, el principal exportador de aguacates hacia los Estados Unidos (aproximadamente el 80% de los aguacates consumidos en EE.UU.), enfrentó una caída en la producción debido a factores climáticos adversos, como fueron las sequías y heladas, que afectaron sus cosechas en 2016 y 2017.
+
+2. Y en segundo lugar, debido a un incremento en la Demanda Internacional, a causa de la creciente popularidad del aguacate, no solo en Estados Unidos, sino también en mercados emergentes como Asia y Europa. Presionó la oferta disponible, especialmente en temporadas donde la producción ya era limitada, lo cual ocasionó un claro incremento en los precios del aguacate.
 
 ### Gráficos para Visualización de Datos
 
