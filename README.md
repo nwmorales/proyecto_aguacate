@@ -134,8 +134,9 @@ En este gráfico de violín del volumen total de consumo de aguacates, ordenado 
 
 
 ### Análisis de Cohortes
-
-
+#### Cohortes Basadas en Precios Promedios Trimestrales
+![image](https://github.com/user-attachments/assets/7f276e48-0983-40f3-9292-45538036a847)
+Como se puede observar en la gráfica 1 hay fluctuación en el precio promedio del aguacate a lo largo del tiempo, el precio del aguacate varía de manera cíclica con picos y caídas claras, mostrando una ligera tendencia al alza a lo largo del tiempo hasta Q3 de 2017. En la gráfica 2 a lo largo del tiempo, el volumen total de ventas presenta subidas y bajadas marcadas y el volumen de ventas fluctúa estacionalmente, con caídas en ciertos trimestres y una tendencia de recuperación posterior. Hay relación entre ambas gráficas que sería cuando el precio promedio sube (Q3 de 2017), parece que el volumen total de ventas tiende a disminuir ligeramente en períodos cercanos (como Q3 de 2017) y Las bajas en precios (Q1 de 2016 y Q1 de 2017) coinciden con altos volúmenes de ventas, sugiriendo una posible relación inversa entre precio y ventas.
 
 
 ### Análisis de Correlación y Regresión
