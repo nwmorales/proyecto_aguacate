@@ -128,6 +128,26 @@ En este gráfico se puede observar de forma muy clara el suceso que afirmábamos
 ![image](https://github.com/user-attachments/assets/8cba89ac-465c-4877-9301-f88989a9509d)
 En este gráfico de violín del volumen total de consumo de aguacates, ordenado por grandes regiones, hemos podido ver algunas regiones como "West", "California" y "SouthCentral" con dispersiones pronunciadas, y, por otro lado, en otras regiones como, la región "Plains", que tienen un comportamiento bastante más uniforme.
 
+#### Boxplot Comparativo de Precios entre Años
+![image](https://github.com/user-attachments/assets/f502b12a-894b-4dc9-b269-b14b8ef6544d)
+
+Este gráfico se revela que, entre 2015 y 2017, parece existir una tendencia al alza en el precio promedio de los aguacates, alcanzando su punto más alto en 2017.
+
+En 2018, el precio promedio muestra una disminución en este promedio, lo que sugiere que el mercado pudo haberse estabilizado o que hubo una mayor disponibilidad de aguacates.
+
+El año 2017 destaca por una mayor variabilidad en los precios promedio en comparación con los demás años, reflejada en la amplitud de la caja y en la cantidad de valores atípicos. Esto indica que 2017 fue un período marcado por inestabilidad en los precios de los aguacates. En contraste, 2018 presenta una menor variabilidad y un número reducido de outliers, lo que sugiere precios más estables y consistentes durante ese año.
+
+Además, se identifican numerosos valores atípicos en 2016 y 2017, lo que podría ser indicativo de la influencia de factores externos, como variaciones climáticas o un aumento en la demanda, que impactaron significativamente los precios durante esos períodos.
+
+#### Gráfico de ventas por Tipo de Bolsa
+En el siguiente grafico podemos observar el análisis de las ventas según el tamaño de las bolsas, el cual revela que las bolsas pequeñas (Small Bags) tienen una mayor demanda en comparación con las bolsas grandes (Large Bags) y las bolsas extragrandes (XLarge Bags). Este comportamiento se puede observar claramente en la gráfica presentada, donde las Small Bags destacan como el formato más popular entre los consumidores, siempre sin tener en cuenta el apartado de Total Bags, el cual únicamente expresa el sumatorio de las ventas de todas las bolsas de forma común.
+
+Esta preferencia podría estar relacionada con diversos factores, como la comodidad para el transporte, su asequibilidad o una mayor adecuación a las necesidades de los hogares promedio. En contraste, las Large Bags y XLarge Bags parecen dirigirse a un segmento más específico del mercado, como restaurantes, mayoristas o familias numerosas.  
+
+La diferencia en las ventas también podría reflejar patrones de consumo ligados a la frecuencia de compra, con las Small Bags siendo ideales para consumidores que prefieren adquirir productos frescos en cantidades más pequeñas de manera regular. Este patrón subraya la importancia de entender cómo el tamaño del empaque influye en las decisiones de compra y el comportamiento del mercado.
+
+
+
 ### Elasticidad del Precio
 
 
