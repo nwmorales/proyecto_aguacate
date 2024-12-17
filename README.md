@@ -269,7 +269,7 @@ Además, al realizar el análisis por grupos, hemos observado, que la segmentaci
 Si realizamos predicciones mensuales del **'AveragePrice'** utilizando datos trimestrales a través de una regresión lineal, empleando los dos primeros meses para predecir el tercero, obtenemos estos valores:
 ![image](https://github.com/user-attachments/assets/71c67231-eae9-42a7-b325-b7ed8f44f4d0)
 
-Y la siguiente gráfica, en la cual los puntos oscuros representan los dos primeros meses, mientras que los puntos claros corresponden al tercer mes.
+Y la siguiente gráfica:
 
 ![image](https://github.com/user-attachments/assets/d019f553-1879-4c45-8fab-2a1e37912961)
 
@@ -284,3 +284,36 @@ Y por eso hemos separado el grafico anterior en estos dos graficos:
 En el cual hemos podido estimar estos valores:
 ![image](https://github.com/user-attachments/assets/34f1d486-8f26-4f97-a8be-7b1ddba4c2be)
 
+Lamentablemente tal y como ya se observa en la gráfica, el modelo creado no es demasiado bueno.
+
+Y sospechamos que se debe a que nuestro modelo está sobre ajustado.
+
+
+### Desarrollo y analisis de Modelos de Regresión Múltiple
+
+Realizamos un modelo de regresión múltiple usando las mismas variables numéricas que las implementadas en graficos anteriores, como por ejemplo en la matriz de correlació, siendo estas variables: 'Total Volume', '4046', '4225', '4770', y 'Total Bags', todo ello para obtener unos valores menos ajustados de la evaluación del 'AveragePrice':
+
+![image](https://github.com/user-attachments/assets/eaa9b7b1-e661-4043-8106-d7b4aa40f88f)
+
+Así como los coeficientes obtenidos para el modelo lineal y polinómico:
+
+![image](https://github.com/user-attachments/assets/c007b7a2-3872-4819-872f-5c2595a5141a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aasdasdass
