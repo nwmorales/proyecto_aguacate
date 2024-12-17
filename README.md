@@ -124,8 +124,9 @@ En este gráfico se puede observar de forma muy clara el suceso que afirmábamos
 
 
 ### Gráficos para Visualización de Datos
-
-
+#### Gráfico de violín de los datos del volumen total por 'región'
+![image](https://github.com/user-attachments/assets/8cba89ac-465c-4877-9301-f88989a9509d)
+En este gráfico de violín del volumen total de consumo de aguacates, ordenado por grandes regiones, hemos podido ver algunas regiones como "West", "California" y "SouthCentral" con dispersiones pronunciadas, y, por otro lado, en otras regiones como, la región "Plains", que tienen un comportamiento bastante más uniforme.
 
 ### Elasticidad del Precio
 
