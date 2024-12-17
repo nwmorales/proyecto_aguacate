@@ -145,6 +145,7 @@ Una vez  hecha la classificación, añadimos una columna con categorización de 
 
 
 Es por eso que teniendo en cuenta esta classificación, hemos incluido también la siguiente linea de codigo, para filtrar la segmentación de los datos a analizar en cada exploración de los datos:
+
 ![image](https://github.com/user-attachments/assets/d698ac9c-c4f1-42f3-aae0-b39876377355)
 
 
