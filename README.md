@@ -143,6 +143,7 @@ En la gráfica 2 a lo largo del tiempo, el volumen total de ventas presenta subi
 
 Hay relación entre ambas gráficas que sería cuando el precio promedio sube (Q3 de 2017), parece que el volumen total de ventas tiende a disminuir ligeramente en períodos cercanos (como Q3 de 2017) y Las bajas en precios (Q1 de 2016 y Q1 de 2017) coinciden con altos volúmenes de ventas, sugiriendo una posible relación inversa entre precio y ventas.
 
+
 #### Cohortes por Región y Fecha
 ![image](https://github.com/user-attachments/assets/abc8f6db-0cc9-4c12-a5fb-8b66df9b02ee)   ![image](https://github.com/user-attachments/assets/2bfe3349-68d4-4977-92c7-0bb3eadd800a)
 
@@ -151,6 +152,7 @@ Como podemos observar West y California son las regiones más destacadas, con pr
 Regiones como Midsouth, Plains y Southeast tienen volúmenes de ventas bajos y precios más accesibles. Estas podrían ser áreas con potencial de crecimiento en demanda
 
 Los picos de precios y volúmenes en 2017 podrían deberse a un aumento en la demanda global o condiciones de oferta limitada.
+
 
 #### Análisis de Cohortes en Función del Tipo de Bolsa
 ![image](https://github.com/user-attachments/assets/e566e121-2365-4cdd-969b-ac78ab96aa9c)
@@ -164,5 +166,17 @@ Las ventas totales tienden a crecer con el tiempo, con picos estacionales.
 Las Large Bags tienen un rol secundario pero muestran crecimiento, especialmente en bolsas orgánicas.
 
 Las XLarge Bags representan una fracción muy pequeña y su impacto es insignificante en comparación con las otras categorías
+
+
+#### Cohortes de Clientes Basadas en Ventas
+![image](https://github.com/user-attachments/assets/e14f10f5-fe58-4059-93f4-c628f0dc5ccb)
+En la gráfica podemos observar que West lidera el volumen de ventas, con un crecimiento marcado entre 2015 y 2017.
+
+California ocupa una posición sólida con ventas consistentes
+
+Regiones como Southeast y Plains destacan por un crecimiento notable, mostrando oportunidades en estas áreas.
+
+Las regiones con bajo volumen de ventas se mantienen constantes y no muestran cambios significativos, lo que sugiere mercados menos activos o con menor demanda.
+
 
 ### Análisis de Correlación y Regresión
