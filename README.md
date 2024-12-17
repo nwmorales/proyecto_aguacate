@@ -191,13 +191,13 @@ Realizando un analisis por cada grupo de regiones que hemos creado siendo estas:
 #### Greater Reagions:
 ![image](https://github.com/user-attachments/assets/f7fa3f12-ea18-4527-94c3-1b61136a9904)
 
-#### Cities
+### Cities:
 ![image](https://github.com/user-attachments/assets/87889af0-34f0-4787-abac-d2c3a498cae6)
 
-#### Regions
+### Regions:
 ![image](https://github.com/user-attachments/assets/56d00783-7ced-4549-8f96-0eb845ffaf26)
 
-#### TotalUS
+### TotalUS:
 ![image](https://github.com/user-attachments/assets/26de5589-0ccc-413a-b743-e1cec783189c)
 
 Al analizar la dispersión entre las variables clave AveragePrice y Total Volume, se observa una concentración de puntos cerca del valor 0, lo que indica que los volúmenes de venta de aguacates orgánicos son notablemente más bajos que los convencionales.
