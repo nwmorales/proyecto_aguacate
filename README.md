@@ -156,9 +156,21 @@ La diferencia en las ventas también podría reflejar patrones de consumo ligado
 ### Análisis de Cohortes
 #### Cohortes Basadas en Precios Promedios Trimestrales
 ![image](https://github.com/user-attachments/assets/7f276e48-0983-40f3-9292-45538036a847)
+
 Como se puede observar en la gráfica 1 hay fluctuación en el precio promedio del aguacate a lo largo del tiempo, el precio del aguacate varía de manera cíclica con picos y caídas claras, mostrando una ligera tendencia al alza a lo largo del tiempo hasta Q3 de 2017. 
+
 En la gráfica 2 a lo largo del tiempo, el volumen total de ventas presenta subidas y bajadas marcadas y el volumen de ventas fluctúa estacionalmente, con caídas en ciertos trimestres y una tendencia de recuperación posterior. 
+
 Hay relación entre ambas gráficas que sería cuando el precio promedio sube (Q3 de 2017), parece que el volumen total de ventas tiende a disminuir ligeramente en períodos cercanos (como Q3 de 2017) y Las bajas en precios (Q1 de 2016 y Q1 de 2017) coinciden con altos volúmenes de ventas, sugiriendo una posible relación inversa entre precio y ventas.
+
+#### Cohortes por Región y Fecha
+![image](https://github.com/user-attachments/assets/abc8f6db-0cc9-4c12-a5fb-8b66df9b02ee)   ![image](https://github.com/user-attachments/assets/2bfe3349-68d4-4977-92c7-0bb3eadd800a)
+
+Como podemos observar West y California son las regiones más destacadas, con precios más altos y volúmenes de ventas elevados, esto sugiere que estas regiones lideran el mercado tanto en demanda como en capacidad de pago.
+
+Regiones como Midsouth, Plains y Southeast tienen volúmenes de ventas bajos y precios más accesibles. Estas podrían ser áreas con potencial de crecimiento en demanda
+
+Los picos de precios y volúmenes en 2017 podrían deberse a un aumento en la demanda global o condiciones de oferta limitada.
 
 
 ### Análisis de Correlación y Regresión
