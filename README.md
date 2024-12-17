@@ -300,20 +300,18 @@ Así como los coeficientes obtenidos para el modelo lineal y polinómico:
 ![image](https://github.com/user-attachments/assets/c007b7a2-3872-4819-872f-5c2595a5141a)
 
 
+### Analisis de la influencia de las Ventas Totales sobre el Precio Promedio
+![image](https://github.com/user-attachments/assets/bc45b469-508e-4dca-a3a4-966a773c4b82)
+
+En este gráfico, podemos observar el resultado grafico de la influencia que ejercen las ventas totales (Total Volume) en el precio promedio (AveragePrice), al aplicar los modelos: lineal y polinómico.
+
+Entendiendo que, la relación entre Total Volume y AveragePrice es negativa, puesto que como muestra claramente el grafico, el precio promedio de los aguacates disminuye con el aumento del volumen total.
 
 
+## Temas a intentar mejorar en un futuro:
 
+El apartado principal que no hemos realizado y desearíamos poder haberlo trabajado de mejor manera, sería el haber logrado un modelo predictivo que realizase de forma correcta, regresiones y proyecciones a futuro de los datos faltantes en la base de datos de avocados.
 
+Creemos que este era uno de los temas más atractivos de este proyecto, pero lamentablemente por falta de tiempo, falta de conocimientos, y sinceramente una possible mala planificación de nuestros tiempos en el proyecto, no nos ha sido posible realizarlo.
 
-
-
-
-
-
-
-
-
-
-
-
-aasdasdass
+![image](https://github.com/user-attachments/assets/3cd1f7fa-e8bd-48ee-82fd-36badeef6105)
